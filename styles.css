@@ -2,13 +2,16 @@
   box-sizing: border-box;
   margin: 0;
   color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
-  background-image: url(img/stock-photo-artist-painting-in-her-workshop.jpg);
+  background-image: url(img/image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 100vh;
+  font-size:30px;
 
 }
 
@@ -16,6 +19,13 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 50px 70px 0px 70px;
+  padding: 10px 5px ;
+  
 }
-
+ 
+.title{
+  margin-right: 20px;
+  font-size: 18px;
+}
